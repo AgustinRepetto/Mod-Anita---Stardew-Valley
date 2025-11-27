@@ -1,0 +1,13 @@
+{
+  "spring.000": "Parece que %Ani no está de humor para hablar ahora mismo.",
+  "drink.000": "Hola, @. ¿Tomándote un descanso del trabajo?#$b#Genial, ¿quieres que te invite a una bebida?$1",
+  "rain.000": "*suspiro* No se puede hacer nada con este tipo de clima...$2#$b#Menos mal que el Saloon siempre está abierto.$0",
+  "summer.000": "Me pregunto si debería broncearme...$6",
+  "summer.001": "Parece que %Ani no está de humor para hablar ahora mismo.",
+  "fall.000": "Parece que %Ani no está de humor para hablar ahora mismo.",
+  "fall.001": "Este clima es perfecto para un agradable paseo por el bosque.$6",
+  "winter.000": "Parece que %Ani no está de humor para hablar ahora mismo.",
+  "winter.001": "Solo estoy limpiando un poco por aquí.",
+  "marriage.000": "Hola, guapo. ¿Te estás tomando un descanso del trabajo?^Hola, preciosa. ¿Te estás tomando un descanso del trabajo?#$b#¿O querías venir a verme?$1"
+
+}

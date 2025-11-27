@@ -1,0 +1,14 @@
+{
+
+  "Name": "Anita mod",
+  "Author": "Agustin Repetto",
+  "Description": "A mod that adds in a custom NPC named Ani",
+  "Version": "1.1.0",
+  "UniqueID": "Papaya.AniTakahashi",
+  "UpdateKeys": [ "Nexus:3732" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+
+
+}

@@ -1,0 +1,263 @@
+{
+  "Format": "1.6",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Ani": "adult/neutral/outgoing/neutral/female/datable/null/Other/spring 5//Saloon 40 17/Ani"
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Ani": "¡Ay, muchas gracias! ¿Cómo sabías que me encantan estas cosas?/402 394 206 223 84 556 348 400/¡Gracias! Es un lindo regalo./211 72 222 234 728 730 -79 -81/Mmm... No soy muy fan de esto, @./-2 -7 221 406 432 -12 82 436 203/@, esto es literalmente basura./342 330/Ey, gracias por el regalo./424 426 306 307 308 428 446 78 725 726 768 769 -4 142 721 681 688 689 690 -74 309 310 311/"
+      }
+    },
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationdescriptions",
+      "Entries": {
+        "Ani_smoke": "16/16 16 17 17 18 18 19 19 18 18 17 17 16 16 17 17 18 18 19 19 18 18 17 17/19",
+        "Ani_glasses": "29/29/29",
+        "Ani_drink": "24/24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 26 26 26 27 27 26 26 27 27 26 25 24 24 24 24 24 24 24 24 24 24 24 24/24"
+      }
+    },
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Ani",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "Ani0": "¿Estoy un poco nerviosa por esto? ¿Vos no?$4",
+        "Ani1": "Y pensar que no podía ser más feliz...$4"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "strings/StringsFromCSFiles",
+      "Entries": {
+        "Utility.cs.5371": "@... Ani... #$b# Como alcalde del Pueblo Pelícano, y portador regional del sello matrimonial, ¡ahora los declaro marido y mujer!$h",
+        "Utility.cs.5377": "@... Ani... #$b# Como alcalde del Pueblo Pelícano, y portador regional del sello matrimonial, ¡ahora las declaro esposa y..., bueno, esposa!$h",
+        "Utility.cs.5367": "Cuando @ llegó por primera vez al Pueblo Pelícano, nadie sabía si encajaría en nuestra comunidad...#$b#¡Pero de hoy en adelante, @ será tan parte de este pueblo como cualquiera de nosotros!$h#$b#Es un gran honor para mí en este día {0} de {1}, unir a @ y Ani en sagrado matrimonio.",
+        "Utility.cs.5369": "Cuando @ llegó por primera vez al Pueblo Pelícano, nadie sabía si encajaría en nuestra comunidad...#$b#¡Pero de hoy en adelante, @ será tan parte de este pueblo como cualquiera de nosotros!$h#$b#Es un gran honor para mí en este día {0} de {1}, unir a @ y Ani en sagrado matrimonio."
+      },
+      "When": {
+        "Relationship:Ani": "Engaged, Married"
+      }
+    },
+    {
+      "LogName": "Ani Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Ani",
+      "FromFile": "assets/Image/Ani.png"
+    },
+    {
+      "LogName": "Ani Sprites",
+      "Action": "Load",
+      "Target": "Characters/Ani",
+      "FromFile": "assets/Image/Sprite.png"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Ani",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "Marriage Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/MarriageDialogue",
+      "FromFile": "assets/Dialogue/marriageDialogue.json"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Ani",
+      "FromFile": "assets/Schedule/Schedule.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Ani": "¡Ey, el ponche está bastante bueno! *slurp*$1#$e#¿Por qué me ponés esa cara? ¿Vos también querés?#$b#¡Andá a buscar el tuyo!"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring13",
+      "Entries": {
+        "Ani": "Juro que vi a Pam ponerle algo al ponche...$3#$b#No tomes el ponche.$3"
+      },
+      "When": {
+        "Spouse:Ani": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Ani": "Bailaría, pero...#$b#Creo que esta vez paso."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/spring24",
+      "Entries": {
+        "Ani": "*Suspiro* La primavera ya casi termina."
+      },
+      "When": {
+        "Spouse:Ani": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer11",
+      "Entries": {
+        "Ani": "No puedo esperar a probar la sopa.",
+        "Ani_spouse": "¿Vas a ponerle algo a la sopa, @?#$e#Por favor no le pongas nada... feo...#$e#Me gustaría disfrutar de verdad la sopa de este año."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Ani": "Debería haber traído mi cámara...$2",
+        "Ani_spouse": "¡Hola, cariño! No puedo esperar a que salgan las medusas.#$b#Voy a estar atenta por si aparece la medusa verde rara."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/summer28",
+      "Entries": {
+        "Ani": "Las medusas lunares emiten un brillo tan relajante."
+      },
+      "When": {
+        "Spouse:Ani": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Ani": "Quiero que me lean la fortuna, pero me preocupa escuchar algo que no me guste.#$e#Ese payaso...$3#$b#Es muy... inquietante.$3",
+        "Ani_spouse": "Voy a hacer que la señora del cementerio me lea la fortuna.#$e#¡Ya sé que va a ser buena porque estás acá!$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall16",
+      "Entries": {
+        "Ani": "Voy a tener pesadillas con ese payaso...$2"
+      },
+      "When": {
+        "Spouse:Ani": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/fall27",
+      "Entries": {
+        "Ani": "Se puso más fresco...$2#$e#O es el clima o el ambiente inquietante...",
+        "Ani_spouse": "Me pareció sentir que algo me agarraba el brazo...$2"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Ani": "¿Escapándote para visitarme?#$b#¡Ja, ja! Solo te estoy molestando.$1"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter8",
+      "Entries": {
+        "Ani": "¿Vas a pescar, cariño?#$b#¡Te voy a estar haciendo barra!$1"
+      },
+      "When": {
+        "Spouse:Ani": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Ani": "¿Gus tomó demasiado? Ay, por favor..."
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "data/festivals/winter25",
+      "Entries": {
+        "Ani": "¿Me trajiste un regalo, @?$h#$b#Aunque ya recibí el mejor regalo que podrías darme...$l"
+      },
+      "When": {
+        "Spouse:Ani": "True"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "strings/StringsFromMaps",
+      "Entries": {
+        "AniHouse.1": "Es una foto de la familia de Ani. Está al lado de un chico y otras tres chicas que sonríen de oreja a oreja. En el medio está su madre.",
+        "AniHouse.2": "Una revista de moda. ¡La persona en la portada se parece mucho a Ani!",
+        "AniHouse.3": "Latas de cerveza.",
+        "AniHouse.4": "Un montón de sobres abiertos. La mayoría son de una sola persona llamada 'Junko'.",
+        "AniHouse.5": "Para nuestra querida Ani-^Te extrañamos y esperamos que estés bien.^Nuestro hermanito ya se acostumbró a todas las luces brillantes y las cámaras desde que te fuiste. Él también te extraña, pero no lo admite, jaja.^Recordá, si las cosas no funcionan o simplemente extrañás tu casa, siempre estaremos acá para recibirte con los brazos abiertos.^Asegurate de comer sano y mantenerte hidratada.^Con amor,^Tu familia.",
+        "AniHouse.6": "Hay algo en la radio, pero no podés entender lo que dicen."
+      }
+    },
+    {
+      "LogName": "AniEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Beach",
+      "Entries": {
+        "958563/f Ani 500/t 630 1000/w sunny": "ocean/42 35/farmer 29 35 1 Ani 42 36 2/skippable/showFrame Ani 29/move farmer 12 0 1/move farmer 0 1 2/speak Ani \"Hola, @. ¿Viniste a hacerme compañía?$6\"/faceDirection farmer 1/speak Ani \"Solo estoy disfrutando el sonido de las olas.$6#$b#Ahora que lo pienso, no me di cuenta de cuánto necesitaba un respiro.$6\"/faceDirection farmer 2/speak Ani \"Decime, ¿cómo va esa vida de granjero?$6#$b#Debe ser lindo vivir en una granja.$6#$b#Yo vivía en Ciudad Zuzu. Hasta que decidí dejar ese estilo de vida.$6\"/pause 1000/speak Ani \"Pero mentiría si dijera que no extraño a mi familia y amigos en casa.$6#$b#Probablemente sueno como una mocosa egoísta, pero tengo que admitir que me siento bastante sola.$6#$b#A pesar de estar rodeada de gente maravillosa, supongo...$6\"/question fork1 \"#Harás nuevos amigos acá.#...\"/fork noResponse/pause 1000/speak Ani \"Sos muy amable, granjerito.$6^Sos muy amable, granjerita.$6#$b#Sinceramente, es un lindo cambio conocer a alguien como vos.$6\"/emote farmer 60/speak Ani \"Hablemos más en otro momento.$6\"/move Ani 0 -1 0/faceDirection farmer 0/speak Ani \"No te pierdas.$6\"/move Ani -16 0 3 true/faceDirection farmer 3/pause 500/faceDirection farmer 2/globalFade/viewport -1000 -1000/end",
+        "noResponse": "pause 500/emote Ani 28/speak Ani \"Bueno, basta de divagar...$6\"/move Ani 0 -1 0/faceDirection farmer 0/speak Ani \"Te veo después, granjerito.$6^Te veo después, granjerita.$6\"/move Ani -14 0 3 true/faceDirection farmer 3/globalFade/viewport -1000 -1000/end"
+      }
+    },
+    {
+      "LogName": "AniEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Forest",
+      "Entries": {
+        "958564/f Ani 1000/t 800 1300/w sunny": "playful/39 13/farmer 53 14 3 Ani 39 11 2/skippable/showFrame Ani 29/move farmer -14 0 3/speak Ani \"¡Alto ahí!$6\"/jump farmer/faceDirection farmer 0/speak Ani \"¡Ah, sos vos, @!$6#$b#¡Vení acá, quiero hablar con vos!$6\"/emote farmer 40/move farmer 0 -2 0/speak Ani \"Bien, bien, ahora quedate parado ahí.$6\"/pause 500/speak Ani \"Mmm...$6\"/emote farmer 8/speak Ani \"¿Sabés qué, granjerito?$6^¿Sabés qué, granjerita?$6#$b#¡De cerca sos realmente atrayente!$6\"/emote farmer 16/jump farmer/faceDirection farmer 2/emote farmer 60/animate Ani false true 250 30 31 30 31/speak Ani \"Je, ¿soné muy directa?$6#$b#Pero, fuera de broma, ¡es verdad!$6#$b#¡Definitivamente podrías ser modelo!$7\"/stopAnimation Ani/showFrame Ani 29/faceDirection farmer 0/pause 500/speak Ani \"No sé qué es lo que te hace destacar.$6#$b#¿Quizás es tu físico? ¿O quizás tu fuerza o tu inteligencia?$6\"/pause 500/speak Ani \"¡Por supuesto!$7#$b#Obviamente es tu encantadora personalidad.$7#$b#¿Quién puede resistirse a una persona tan seductora como vos? ¡Jaja!$6\"/faceDirection farmer 2/emote farmer 60/faceDirection farmer 0/speak Ani \"Sabés, si tu nueva vida de granjero no resulta como esperabas, siempre hay un lugar para vos en la industria del modelaje.$6\"/pause 500/speak Ani \"¡Oh, parece que es hora de irme! Gus probablemente necesite ayuda en el salón.$6#$b#Te veo por ahí, granjerito.$6^Te veo por ahí, granjerita$6.#$b#Visitame alguna vez, ¿dale?$6\"/move Ani 20 0 1 true/faceDirection farmer 1/globalFade/viewport -1000 -1000/end"
+      }
+    },
+    {
+      "LogName": "AniEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Saloon",
+      "Entries": {
+        "958565/f Ani 1500/t 2000 2400/p Gus": "playful/15 20/farmer 14 24 0 Ani 16 20 0 Clint 18 22 2 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Gus 11 18 2 Emily 12 17 0 Shane 22 18 2/skippable/move farmer 0 -3 0/move farmer 3 0 1/faceDirection Marnie 0 true/move farmer 0 -1 0/faceDirection Ani 1/faceDirection farmer 3/speak Ani \"¡Hola, @, qué bien te ves! ¿Te hiciste algo en el pelo?$1#$b#Okey, siempre te ves bien, pero te ves bien de una forma en que algo en vos es...$3#$b#Eh... ¿Mejor?$1\"/emote farmer 40/pause 500/emote Ani 28/speak Ani \"¿Qué tal si dejo que te invite una cerveza?\"/faceDirection Ani 0/speak Ani \"¡Ey Gus, servime una ronda para mí y el granjerito!^¡Ey Gus, servime una ronda para mí y la granjerita!\"/faceDirection farmer 0/faceDirection Gus 1/speak Gus \"Ya sale.\"/move Gus 5 0 1/move Gus 0 -1 0/faceDirection Gus 0/playSound openBox/pause 400/playSound Milking/move Pam -6 0 0/move Gus 0 1 2/pause 500/speak Gus \"Acá tenés, Ani.$u\"/pause 500/speak Ani \"¡Gracias, Gus!$1#$b#¡Salud!$1\"/faceDirection Ani 2/animate Ani false false 500 24 25 26 27 26 27 26 25 24/pause 500/move Gus -5 0 3/stopAnimation Ani/faceDirection Gus 2/farmerEat 346/pause 900/pause 1100/stopAnimation farmer/faceDirection farmer 3/faceDirection Ani 1/speak Ani \"Je. Ey, @, ¿puedo decirte algo?$1\"/emote farmer 8/pause 400/faceDirection Ani 0/pause 400/speak Ani \"Es que... soy ruidosa, insistente y arrogante.#$b#Me puse a pensar. ¿Por qué alguien como vos querría ser mi amigo?\"/pause 500/speak Ani \"Y sé que hablo por los codos todo el tiempo y digo un montón de pavadas, pero el hecho de que todavía me soportes significa muchísimo.#$b#Tengo mucha suerte de tenerte como amigo.$1\"/emote farmer 32/pause 500/speak Ani \"Perdón si estuve divagando. Es que a veces me entusiasmo, ¿sabés?#$b#Es un verdadero peso que me saco de encima poder hablar con alguien.$1#$b#¿Qué tal si nos invito más cervezas así nos olvidamos de estas pavadas?#$b#¡Ey Gus! ¡Otra ronda para mí y @!$1\"/faceDirection Gus 1/emote Gus 28/pause 500/faceDirection farmer 2/animate farmer false true 100 102 103/pause 1000/globalFade/viewport -1000 -1000/pause 600/stopAnimation farmer/end warpOut"
+      }
+    },
+    {
+      "LogName": "AniEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "958566/f Ani 2000/t 2100 2400/w rainy": "rain/42 72/farmer 24 72 1 Ani 42 72 2/skippable/animate Ani false true 400 16 16 17 17 18 18 19 19 18 18 17 17/move farmer 17 0 1/pause 500/speak Ani \"Ah, sos vos nada más.$9#$b#Estás despierto hasta tarde.$9\"/faceDirection farmer 2/speak Ani \"Deberías irte a casa. Te vas a enfermar con este clima.$9\"/emote farmer 40/faceDirection farmer 1/pause 500/faceDirection farmer 2/speak Ani \"*Suspiro* Debería haberlo esperado...$9\"/playMusic echos/pause 4000/speak Ani \"Estoy siendo egoísta. Sé que lo soy...$10#$b#Siempre estuviste ahí para mí y no me merezco eso de vos.$10\"/pause 500/speak Ani \"Me gustaría que me escuches de nuevo...$10\"/faceDirection farmer 1/emote farmer 8/speak Ani \"Es solo que... estuve teniendo algunos pensamientos. Pensando en... cosas.$10#$b#Pasamos mucho tiempo juntos y eso me hizo pensar en... bueno, en los momentos en que escapé.$10\"/pause 400/speak Ani \"Escapé de mi familia, mis amigos... mi casa.$10#$b#Diablos, hasta escapé de mí misma.$10#$b#¿Y todo para qué? ¿Solo para ser feliz conmigo misma?$9\"/pause 1000/speak Ani \"*Suspiro*$10#$b#Pero por primera vez... estando con vos, las cosas se sintieron bien.$10\"/emote farmer 16/jump farmer/speak Ani \"Perdón si te estoy incomodando.$10\"/question fork1 \"#Siento lo mismo.#Lo siento... No siento lo mismo.\"/fork rejection/pause 500/pause 500/speak Ani \"Gracias, @.$11#$b#Escuchar eso de alguien como vos... No sé si entendés lo feliz que me hace.$11\"/emote farmer 60/faceDirection farmer 2 true/stopAnimation Ani/animate Ani false false 200 20 21 22/pause 500/speak Ani \"Conocerte fue probablemente el mejor día de mi vida.$l#$b#Es como si hubiera encontrado una parte de mí que me faltaba.$l\"/stopAnimation Ani/showFrame Ani 0/faceDirection Ani 3/faceDirection farmer 1/speak Ani \"Nadie como yo debería tener tanta suerte.$l\"/emote farmer 32/speak Ani \"Vamos, entremos antes de que te resfríes.$1\"/globalFade/viewport -1000 -1000/end",
+        "rejection": "pause 500/emote Ani 28/speak Ani \"Lo siento...$10\"/pause 500/stopAnimation Ani/showFrame Ani 0/pause 500/speak Ani \"*Suspiro* ...Voy a volver adentro.$2\"/move Ani 3 0 1/faceDirection farmer 1/move Ani 0 -1 0/warp Ani 43 65/playSound doorClose/faceDirection farmer 2/emote farmer 40/pause 500/move farmer -15 0 3 true/globalFade/viewport -1000 -1000/end"
+      }
+    },
+    {
+      "LogName": "AniEvent",
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "958567/f Ani 2500/t 2000 2400/w sunny": "nightTime/64 15/farmer 64 16 2 Ani 64 20 0/skippable/pause 1500/speak Ani \"Ey, @.#$b#Perdón por molestarte tan tarde, pero... quería hablar con vos.\"/emote Ani 40/speak Ani \"Vamos, salgamos de acá. Quiero que hablemos en un lugar... más privado.\"/emote farmer 40/pause 2000/move farmer 0 1 2 true/globalFade/viewport -1000 -1000/warp farmer -100 -100/changeToTemporaryMap SebastianRide/ambientLight 0 0 0/specificTemporarySprite sebastianRide/viewport 15 8 true/speak Ani \"Perdón por traerte tan tarde.#$b#Pero quería mostrarte algo...#$b#No está muy lejos.\"/pause 500/speak Ani \"¿Ah, la moto?#$b#Solo la estoy... tomando prestada un rato. No te preocupes, le dejé una nota a Sebastian.$1\"/globalFade/viewport -1000 -1000/changeToTemporaryMap SebastianMountain/ambientLight 0 0 0/warp farmer 15 18/warp Ani 16 18/positionOffset farmer 0 7/playMusic spaceMusic/viewport 15 14 true/faceDirection farmer 0/showFrame Ani 23/pause 10000/speak Ani \"Esa es Ciudad Zuzu a lo lejos.#$b#Creo que si entrecierro los ojos lo suficiente, podría ver el departamento donde crecí.\"/pause 800/speak Ani \"...¿Puedo preguntarte algo, @?\"/faceDirection farmer 1/emote farmer 8/speak Ani \"$q -1 null#¿Alguna vez querrías venir a la ciudad conmigo?#$r -1 0 event_Ani1#Iría a cualquier lado con vos.#$r -1 10 event_Ani2#Tal vez... Pero no pronto.#$r -1 -10 event_Ani3#Suena aburrido.\"/pause 3000/speak Ani \"Desde que me mudé acá hace un año, estuve viniendo acá a recordar el pasado.#$b#Sentí que nunca encajaría con la gente del pueblo, así que planeé volver a casa.#$b#Bueno, ESE era mi plan... hasta que algo se interpuso.\"/pause 900/speak Ani \"@...#$b#Cuando te conocí, me impactó tu amabilidad y tu calidez.$4#$b#Se volvió difícil sacarte de mi mente. Cuanto más intentaba olvidarte, más empezaba a pensar en vos... Hasta que me di cuenta...\"/pause 500/showFrame Ani 12/faceDirection Ani 3/speak Ani \"Nadie nunca me hizo sentir como vos me hacés sentir, y es una sensación tan loca.$4\"/pause 700/faceDirection farmer 1/emote Ani 40/pause 2000/showFrame Ani 28/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/positionOffset Ani -2 0/pause 10/showFrame 101/pause 4000/viewport move 1 -1 6000/pause 6000/globalFade/viewport -1000 -1000/changeLocation Mountain/pause 4000/end position 64 16/end"
+      }
+    }
+  ]
+}
