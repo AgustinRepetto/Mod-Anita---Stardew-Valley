@@ -30,7 +30,7 @@ Event Guide:
 
 Loves & Likes:
 
-Ama (Loves): Calabaza Dorada (Golden Pumpkin), Rollo de Maki (Maki Roll), Perla (Pearl), Fragmento Prismático (Prismatic Shard), Plato Rojo (Red Plate), Rubí (Ruby), Ensalada (Salad), Vino (Wine).
+Ama (Loves): Pizza, Guisante dulce (Sweet Pea), Concha arcoíris (Rainbow Shell), Galletas (Cookies), Lágrima helada (Frozen Tear), Oropimente (Orpiment).
 
 Gusta (Likes): Universal (Objetos que gustan a todos).
 
