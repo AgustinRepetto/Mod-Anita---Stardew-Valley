@@ -30,9 +30,7 @@ Event Guide:
 
 Loves & Likes:
 
-Ama (Loves): Pizza, Guisante dulce (Sweet Pea), Concha arcoíris (Rainbow Shell), Galletas (Cookies), Lágrima helada (Frozen Tear), Oropimente (Orpiment).
-
-Gusta (Likes): Universal (Objetos que gustan a todos).
+Ama (Loves): Pizza, Guisante dulce (Sweet Pea), Concha arcoíris (Rainbow Shell), Galletas (Cookies), Lágrima helada (Frozen Tear), Oropimente (Orpiment). Huevo Slime Naranja (Orange Slime Egg), Vino (Wine), Fresa (Strawberry).
 
 Installation:
 
